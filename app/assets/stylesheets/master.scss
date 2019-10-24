@@ -6,11 +6,13 @@
 
 .iconDiv{
   width:100%;
-  text-align:center;
+  text-align:right;
 }
 
 .icon{
   width:70%;
+  margin-left: 10px;
+  margin-top: 1px;
 }
 
 /* animation of heat wave 1 with class heat1 inside the svg code*/
@@ -106,6 +108,7 @@ h1 {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 600;
   letter-spacing: -1.5px;
+  color: Red;
 }
 
 h2 {
@@ -117,4 +120,13 @@ h2 {
 	color:#f84342;
 	font-family: 'nobilemedium_italic', sans-serif;
 	font-size:20px;
+}
+.footer-blurb {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: italic;
+  text-align: right;
+  font-size: 10px;
+}
+.about {
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
