@@ -1,0 +1,120 @@
+@import "bootstrap";
+
+.clear {
+	clear: both;
+}
+
+.iconDiv{
+  width:100%;
+  text-align:center;
+}
+
+.icon{
+  width:70%;
+}
+
+/* animation of heat wave 1 with class heat1 inside the svg code*/
+
+@-webkit-keyframes ani1{
+  0% {fill:#464041;}
+  50% {fill:white;}
+  100% {fill:#464041;}
+}
+
+@keyframes ani1{
+  0% {fill:#464041;}
+  50% {fill:white;}
+  100% {fill:#464041;}
+}
+
+.heat1{
+  animation-name:ani1;
+  animation-duration:3s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:infinite;
+  animation-delay:3s;
+  animation-fill-mode:backwards;
+}
+
+/* animation of heat wave 2 with class heat2 inside the svg code */
+
+@-webkit-keyframes ani2{
+  0% {fill:#464041;}
+  50% {fill:white;}
+  100% {fill:#464041;}
+}
+
+@keyframes ani2{
+  0% {fill:#464041;}
+  50% {fill:white;}
+  100% {fill:#464041;}
+}
+
+
+.heat2{
+  animation-name:ani2;
+  animation-duration:5s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:infinite;
+  animation-delay:4s;
+  animation-fill-mode:backwards;
+
+}
+
+/* animation of heat wave 3 with class heat3 inside the svg code */
+
+@-webkit-keyframes ani3{
+  0% {fill:#464041;}
+  50% {fill:white;}
+  100% {fill:#464041;}
+}
+
+.heat3{
+  animation-name:ani3;
+  animation-duration:4s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count:infinite;
+  animation-delay:5s;
+  animation-fill-mode:backwards;
+}
+
+.slogan {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-style: bold;
+  padding-top: 26px;
+}
+
+.links {
+	padding-top: 26px;
+}
+
+.links a {
+	color: black;
+	font-size: 25px;
+	border-bottom: 2px solid #DE1F1F;
+}
+
+header {
+	border-top: 9px solid #000000;
+}
+
+hr {
+	clear:both;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+h2 {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+.next-quote {
+	color:#f84342;
+	font-family: 'nobilemedium_italic', sans-serif;
+	font-size:20px;
+}

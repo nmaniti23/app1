@@ -8,8 +8,65 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
   <body>
-    <%= yield %>
+    <header class="row">
+      <div class="col-3">
+        <!-- Svg icon made in Sketch wrapped in a div with iconDiv class -->
+
+        <div class="iconDiv">
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" width="579px" height="579px" viewBox="0 0 579 579" version="1.1">
+          <defs/>
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+            <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-50.000000, -2283.000000)">
+              <g id="logo" sketch:type="MSLayerGroup" transform="translate(50.000000, 2283.000000)">
+                <circle id="Oval-9" opacity="0.534281716" fill="#FB2511" sketch:type="MSShapeGroup" cx="289.5" cy="289.5" r="289.5"/>
+                <g id="CoffeeIcon" transform="translate(243.000000, 290.000000)" fill="#464041" sketch:type="MSShapeGroup">
+                  <g id="cup" transform="translate(0.000000, 76.700000)">
+                    <path d="M6.13275 42.698425L16.20105 146.3826C16.20105 152.220175 29.769 156.952375 46.5 156.952375 63.23595 156.952375 76.79895 152.220175 76.79895 146.3826L88.5651 41.909725C76.41285 48.02215 54.8457 48.6794 46.5 48.6794 38.5305 48.6794 18.50775 48.075925 6.13275 42.698425L6.13275 42.698425ZM86.7435 17.4182L84.8823 7.39215C84.8823 3.502425 67.6959 0.347625 46.5 0.347625 25.3041 0.347625 8.1177 3.5084 8.1177 7.398125L6.26145 17.4182C2.7222 19.1151 0.7125 21.051 0.7125 23.112375L0.7125 30.784275C0.7125 37.368725 21.2154 42.7044 46.5 42.7044 71.7846 42.7044 92.2875 37.36275 92.2875 30.784275L92.2875 23.112375C92.2875 21.051 90.2778 19.1151 86.7435 17.4182L86.7435 17.4182Z" id="Shape"/>
+                  </g>
+                  <path class="heat1" d="M11.7457437 48.4786217C11.7457437 58.2543165 28.4951122 71.7 28.4951122 71.7 28.4951122 71.7 17.6800909 59.9846109 19.8338907 48.4786217 21.9876906 36.9726324 36.6 27.8282452 36.6 21.5418788 36.6 2.90054774 24.3142183 0 24.3142183 0 24.3142183 0 33.9239633 5.38767111 28.4951122 21.5418786 23.0662611 37.696086 11.7457437 38.7029268 11.7457437 48.4786217Z" id="heat1"/>
+                  <path class="heat3" d="M61.4542563 48.4786217C61.4542563 58.2543165 78.2036249 71.7 78.2036249 71.7 78.2036249 71.7 67.3886035 59.9846109 69.5424034 48.4786217 71.6962033 36.9726324 86.3085126 27.8282452 86.3085126 21.5418788 86.3085126 2.90054774 74.0227309 0 74.0227309 0 74.0227309 0 83.632476 5.38767111 78.2036249 21.5418786 72.7747738 37.696086 61.4542563 38.7029268 61.4542563 48.4786217Z" id="heat3"/>
+                  <path class="heat2" d="M36.6 48.4786217C36.6 58.2543165 53.3493685 71.7 53.3493685 71.7 53.3493685 71.7 42.5343472 59.9846109 44.6881471 48.4786217 46.8419469 36.9726324 61.4542563 27.8282452 61.4542563 21.5418788 61.4542563 2.90054774 49.1684746 0 49.1684746 0 49.1684746 0 58.7782196 5.38767111 53.3493685 21.5418786 47.9205174 37.696086 36.6 38.7029268 36.6 48.4786217Z" id="heat2"/>
+                </g>
+                <text id="Nates App" sketch:type="MSTextLayer" font-family="Avenir" font-size="75" font-weight="420" sketch:alignment="middle" fill="#464041">
+                  <tspan x="117.05" y="195">
+                      Nates App
+                  </tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+        </svg>
+        </div>
+      </div>
+      <div class="col-4 slogan">
+        Giving you the best coffee there is!
+      </div>
+      <div class="col-5 links">
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <hr />
+
+    <br class="clear" />
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "This isnt enough I need more", "#", class: 'next-quote' %>
+          </div>
+          </div class="col-6 footer-blurb">
+            Proudly hacked by <a href="[YOUR_PORTFOLIO_URL">[Nathaniel Maniti]</a><br />
+            Want to build your own Web App - <a href="https://on,ine.bootcampspot.com">Learn how to code here</a>
+          </div>
+      </div>
+    </div>
+
   </body>
 </html>
